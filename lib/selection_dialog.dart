@@ -145,7 +145,7 @@ class _SelectionDialogState extends State<SelectionDialog> {
           if (widget.showFlag!)
             Flexible(
               child: Container(
-                margin: const EdgeInsets.only(right: 16.0),
+                margin: const EdgeInsets.symmetric(horizontal: 10),
                 decoration: widget.flagDecoration,
                 clipBehavior:
                     widget.flagDecoration == null ? Clip.none : Clip.hardEdge,
